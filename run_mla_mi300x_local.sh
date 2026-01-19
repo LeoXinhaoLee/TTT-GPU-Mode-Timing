@@ -16,6 +16,7 @@ for step_range in "45:49"; do
     
     for round in 1 2 3; do
         
+        echo "Running round ${round} for step range ${step_range}"
         mkdir -p mla-decode-local/${folder}/step_${step_range}/out/round_${round}
         for kid in {0..19}; do
             rm -rf ~/.triton  # rm cache
