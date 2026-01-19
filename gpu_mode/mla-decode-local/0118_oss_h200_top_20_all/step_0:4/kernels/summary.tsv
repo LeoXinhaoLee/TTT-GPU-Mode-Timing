@@ -1,0 +1,21 @@
+sample_idx	step	score	original_index	original_step	performance	correctness	score_msg	length	output_file
+0	3	2.265745686360075				1.0			sample_0.py
+1	1	1.3182327139485104				1.0			sample_1.py
+2	1	1.3125457586265101				1.0			sample_2.py
+3	2	1.308487082746368				1.0			sample_3.py
+4	2	1.3082699055010483				1.0			sample_4.py
+5	4	1.3061313200102713				1.0			sample_5.py
+6	1	1.3042609864057366				1.0			sample_6.py
+7	1	1.3030642511446116				1.0			sample_7.py
+8	2	1.3029607959943859				1.0			sample_8.py
+9	1	1.3015861997153866				1.0			sample_9.py
+10	0	1.3010769348352271				1.0			sample_10.py
+11	0	1.3010007471213623				1.0			sample_11.py
+12	1	1.2999200722478244				1.0			sample_12.py
+13	1	1.2962020075148382				1.0			sample_13.py
+14	4	1.2958584881063515				1.0			sample_14.py
+15	3	1.2948008652377303				1.0			sample_15.py
+16	2	1.2943712626108432				1.0			sample_16.py
+17	3	1.2929501762345792				1.0			sample_17.py
+18	4	1.2908544682066847				1.0			sample_18.py
+19	4	1.2903152549843588				1.0			sample_19.py
