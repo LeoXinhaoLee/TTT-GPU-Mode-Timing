@@ -1,0 +1,108 @@
+test-count: 18
+test.0.spec: seqlen:32;bs:1;dim:128;hiddendim:128;seed:9371;nomask:true;distribution:normal
+test.0.status: pass
+test.0.message: Maximum error: 0.0005121231079101562
+test.1.spec: seqlen:32;bs:1;dim:128;hiddendim:128;seed:1092;nomask:false;distribution:normal
+test.1.status: pass
+test.1.message: Maximum error: 0.0004705190658569336
+test.2.spec: seqlen:64;bs:2;dim:256;hiddendim:128;seed:2291;nomask:true;distribution:normal
+test.2.status: pass
+test.2.message: Maximum error: 0.00028648972511291504
+test.3.spec: seqlen:64;bs:2;dim:256;hiddendim:128;seed:210284;nomask:false;distribution:normal
+test.3.status: pass
+test.3.message: Maximum error: 0.0004994869232177734
+test.4.spec: seqlen:128;bs:1;dim:768;hiddendim:128;seed:81934;nomask:true;distribution:normal
+test.4.status: pass
+test.4.message: Maximum error: 0.00016558170318603516
+test.5.spec: seqlen:256;bs:1;dim:128;hiddendim:128;seed:1932;nomask:true;distribution:normal
+test.5.status: pass
+test.5.message: Maximum error: 0.0002346038818359375
+test.6.spec: seqlen:256;bs:1;dim:128;hiddendim:128;seed:10432;nomask:false;distribution:normal
+test.6.status: pass
+test.6.message: Maximum error: 0.0001563727855682373
+test.7.spec: seqlen:768;bs:2;dim:128;hiddendim:128;seed:731;nomask:true;distribution:normal
+test.7.status: pass
+test.7.message: Maximum error: 0.00019311904907226562
+test.8.spec: seqlen:1024;bs:1;dim:384;hiddendim:128;seed:53121;nomask:false;distribution:normal
+test.8.status: pass
+test.8.message: Maximum error: 7.49826431274414e-05
+test.9.spec: seqlen:1024;bs:1;dim:768;hiddendim:128;seed:31;nomask:true;distribution:normal
+test.9.status: pass
+test.9.message: Maximum error: 7.748603820800781e-05
+test.10.spec: seqlen:1024;bs:1;dim:768;hiddendim:128;seed:4921;nomask:false;distribution:normal
+test.10.status: pass
+test.10.message: Maximum error: 5.704909563064575e-05
+test.11.spec: seqlen:32;bs:1;dim:128;hiddendim:128;seed:937321;nomask:true;distribution:cauchy
+test.11.status: pass
+test.11.message: Maximum error: 0.0004328787326812744
+test.12.spec: seqlen:64;bs:2;dim:256;hiddendim:128;seed:2291;nomask:true;distribution:cauchy
+test.12.status: pass
+test.12.message: Maximum error: 0.00039643049240112305
+test.13.spec: seqlen:128;bs:1;dim:768;hiddendim:128;seed:8134;nomask:true;distribution:cauchy
+test.13.status: pass
+test.13.message: Maximum error: 0.00010506389662623405
+test.14.spec: seqlen:256;bs:1;dim:128;hiddendim:128;seed:932;nomask:true;distribution:cauchy
+test.14.status: pass
+test.14.message: Maximum error: 0.0003587007522583008
+test.15.spec: seqlen:768;bs:2;dim:128;hiddendim:128;seed:31;nomask:true;distribution:cauchy
+test.15.status: pass
+test.15.message: Maximum error: 9.822845458984375e-05
+test.16.spec: seqlen:1024;bs:1;dim:384;hiddendim:128;seed:5321;nomask:false;distribution:cauchy
+test.16.status: pass
+test.16.message: Maximum error: 0.00011235475540161133
+test.17.spec: seqlen:1024;bs:1;dim:768;hiddendim:128;seed:491;nomask:false;distribution:cauchy
+test.17.status: pass
+test.17.message: Maximum error: 8.07046890258789e-05
+check: pass
+benchmark-count: 7
+benchmark.0.spec: seqlen:256;bs:2;dim:128;hiddendim:128;seed:9371;nomask:true;distribution:normal
+benchmark.0.runs: 54
+benchmark.0.mean: 1516766.318568477
+benchmark.0.std: 11144.05382913326
+benchmark.0.err: 1516.5136415269733
+benchmark.0.best: 1492511.0340118408
+benchmark.0.worst: 1545550.9424209595
+benchmark.1.spec: seqlen:768;bs:1;dim:128;hiddendim:128;seed:381;nomask:true;distribution:cauchy
+benchmark.1.runs: 57
+benchmark.1.mean: 10736074.531287478
+benchmark.1.std: 135784.91925181632
+benchmark.1.err: 17985.15191504949
+benchmark.1.best: 10526838.302612305
+benchmark.1.worst: 10937571.52557373
+benchmark.2.spec: seqlen:256;bs:2;dim:384;hiddendim:128;seed:2301;nomask:false;distribution:normal
+benchmark.2.runs: 35
+benchmark.2.mean: 2273854.36466762
+benchmark.2.std: 13375.361001289035
+benchmark.2.err: 2260.84865175386
+benchmark.2.best: 2242775.9170532227
+benchmark.2.worst: 2296698.0934143066
+benchmark.3.spec: seqlen:512;bs:1;dim:128;hiddendim:128;seed:12819;nomask:true;distribution:normal
+benchmark.3.runs: 40
+benchmark.3.mean: 3847652.3101329803
+benchmark.3.std: 24130.866392281547
+benchmark.3.err: 3815.4249856409933
+benchmark.3.best: 3808093.0709838867
+benchmark.3.worst: 3919905.9009552
+benchmark.4.spec: seqlen:1024;bs:1;dim:128;hiddendim:128;seed:381;nomask:true;distribution:cauchy
+benchmark.4.runs: 3
+benchmark.4.mean: 19856783.548990887
+benchmark.4.std: 30890.477506809977
+benchmark.4.err: 17834.625503952822
+benchmark.4.best: 19821355.81970215
+benchmark.4.worst: 19878086.09008789
+benchmark.5.spec: seqlen:768;bs:1;dim:384;hiddendim:128;seed:481;nomask:false;distribution:normal
+benchmark.5.runs: 14
+benchmark.5.mean: 13643969.467708042
+benchmark.5.std: 49986.36763138752
+benchmark.5.err: 13359.418691855639
+benchmark.5.best: 13550468.444824219
+benchmark.5.worst: 13735930.442810059
+benchmark.6.spec: seqlen:1024;bs:1;dim:384;hiddendim:128;seed:23291;nomask:true;distribution:normal
+benchmark.6.runs: 53
+benchmark.6.mean: 25556603.197781544
+benchmark.6.std: 185381.3411165421
+benchmark.6.err: 25464.08556133252
+benchmark.6.best: 25068519.592285156
+benchmark.6.worst: 25865087.509155273
+geometric-mean: 7182.844921957107
+check: pass

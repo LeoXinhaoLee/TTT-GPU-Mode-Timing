@@ -1,0 +1,8 @@
+test-count: 4
+test.0.spec: batchsize:128;dim:7168;dq:1536;prefill:128;seed:9247
+test.0.status: pass
+test.1.spec: batchsize:128;dim:7168;dq:1536;prefill:512;seed:2197
+test.1.status: pass
+test.2.spec: batchsize:128;dim:7168;dq:1536;prefill:1024;seed:9107
+test.2.status: pass
+test.3.spec: batchsize:128;dim:7168;dq:1536;prefill:2048;seed:5291
